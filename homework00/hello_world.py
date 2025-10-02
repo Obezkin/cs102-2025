@@ -2,8 +2,7 @@
 Этот модуль содержит функцию text, которая возвращает переданное сообщение
 """
 
-
-def text(message):
+def text(message="Hello, world!"):
     """
     Возвращает переданное сообщение.
 
@@ -14,3 +13,4 @@ def text(message):
         str: то же сообщение.
     """
     return message
+
