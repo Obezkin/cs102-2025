@@ -1,15 +1,7 @@
-"""
-Этот модуль содержит функцию text, которая возвращает переданное сообщение.
-"""
+"""Hello World module."""
 
-def text(message ="Hello, world!"):
-    """
-    Возвращает переданное сообщение.
 
-    Args:
-        message (str): входящее сообщение.
-
-    Returns:
-        str: то же сообщение.
-    """
+def text():
+    """Return hello world message."""
+    message = "Hello, World!"
     return message
