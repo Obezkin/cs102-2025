@@ -1,7 +1,6 @@
-"""Hello World module."""
+"""Hello world module."""
 
 
 def text():
     """Return hello world message."""
-    message = "Hello, World!"
-    return message
+    return "message"  
